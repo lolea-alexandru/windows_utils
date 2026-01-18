@@ -1,6 +1,5 @@
 #Requires AutoHotkey v2.0
 
-
 UserName := EnvGet("USERNAME")
 NewWorkingDirPath := "C:\Users\" . UserName . "\Downloads"
 SetWorkingDir NewWorkingDirPath
