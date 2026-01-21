@@ -19,3 +19,6 @@ Garbage Disposal script every day at 10AM.
 
 !! Make sure to check the box saying "Run task as soon as possible after a scheduled start is missed
 " in the Basic Task settings. Details of what this setting does exactly can be found here: https://web.archive.org/web/20230606232021/https://forsenergy.com/en-us/taskscheduler/html/d758ff5d-27d3-4090-b1c2-14ecaa83ff12.htm
+
+### Next steps
+1. Check how to handle a Downloads file being opened in another program
