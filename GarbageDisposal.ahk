@@ -2,6 +2,7 @@
 
 UserName := EnvGet("USERNAME")
 DownloadsWorkingDirPath := "C:\Users\" . UserName . "\Downloads"
+ScreenshotsWorkingDirPath := "C:\Users\" . UserName . "\Pictures\Screenshots"
 
 DeleteFolderContent(Folder) {
     SetWorkingDir Folder
@@ -24,6 +25,7 @@ DeleteFolderContent(Folder) {
 }
 
 DeleteFolderContent(DownloadsWorkingDirPath)
+DeleteFolderContent(ScreenshotsWorkingDirPath)
 
 
 
