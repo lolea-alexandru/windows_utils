@@ -24,8 +24,12 @@ DeleteFolderContent(Folder) {
     }
 }
 
+; Delete files
 DeleteFolderContent(DownloadsWorkingDirPath)
 DeleteFolderContent(ScreenshotsWorkingDirPath)
+
+; Empty recycle bin
+FileRecycleEmpty "C:\"
 
 
 
